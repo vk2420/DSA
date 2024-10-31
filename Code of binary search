@@ -1,3 +1,6 @@
+## This is Question of binary search where we are finding a targeted no. by reaching the middle value and then checking right and left of it.
+we are solving it by 2 pointers approach where we are taking one right and one left pointer
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         l, r = 0, len(nums) - 1
